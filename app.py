@@ -111,10 +111,21 @@ if trigger_prediction:
         X = np.array([[rank_diff, point_diff]])
         
         # 1. Run Probability Inference
-        probabilities = classifier.predict_proba(X)[0] # [Home_Win, Away_Win, Draw]
-        home_win_prob = probabilities[0]
-        away_win_prob = probabilities[1]
-        draw_prob = probabilities[2]
+        # 1. Run Probability Inference Safely
+        probabilities = classifier.predict_proba(X)[0] 
+        
+        # Check if the model handles draws (3 classes) or just binary outcomes (2 classes)
+        if len(probabilities) >= 3:
+            home_win_prob = probabilities[0]
+            away_win_prob = probabilities[1]
+            draw_prob = probabilities[2]
+        else:
+            # Binary fallback: index 0 is home win, index 1 is away win
+            home_win_prob = probabilities[0]
+            away_win_prob = probabilities[1]
+            draw_prob = 0.0  # Set to 0 if your model wasn't trained with draws
+
+
         
         # 2. Run Exact Score Regressions
         home_goals = max(0, int(round(home_goal_model.predict(X)[0])))
