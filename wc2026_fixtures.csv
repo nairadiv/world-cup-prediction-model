@@ -1,0 +1,90 @@
+group,matchday,date,team1,team2
+A,1,2026-06-12,Mexico,South Africa
+A,1,2026-06-12,South Korea,Czechia
+
+B,1,2026-06-13,Canada,Bosnia and Herzegovina
+D,1,2026-06-13,USA,Paraguay
+
+B,1,2026-06-14,Qatar,Switzerland
+C,1,2026-06-14,Brazil,Morocco
+C,1,2026-06-14,Haiti,Scotland
+D,1,2026-06-14,Australia,Türkiye
+E,1,2026-06-14,Germany,Curaçao
+
+F,1,2026-06-15,Netherlands,Japan
+E,1,2026-06-15,Ivory Coast,Ecuador
+F,1,2026-06-15,Sweden,Tunisia
+H,1,2026-06-15,Spain,Cape Verde
+
+G,1,2026-06-16,Belgium,Egypt
+H,1,2026-06-16,Saudi Arabia,Uruguay
+G,1,2026-06-16,Iran,New Zealand
+
+I,1,2026-06-17,France,Senegal
+I,1,2026-06-17,Iraq,Norway
+J,1,2026-06-17,Argentina,Algeria
+J,1,2026-06-17,Austria,Jordan
+K,1,2026-06-17,Portugal,DR Congo
+
+L,1,2026-06-18,England,Croatia
+L,1,2026-06-18,Ghana,Panama
+K,1,2026-06-18,Uzbekistan,Colombia
+A,2,2026-06-18,Czechia,South Africa
+
+B,2,2026-06-19,Switzerland,Bosnia and Herzegovina
+B,2,2026-06-19,Canada,Qatar
+A,2,2026-06-19,Mexico,South Korea
+
+D,2,2026-06-20,USA,Australia
+C,2,2026-06-20,Scotland,Morocco
+C,2,2026-06-20,Brazil,Haiti
+D,2,2026-06-20,Türkiye,Paraguay
+F,2,2026-06-20,Netherlands,Sweden
+
+E,2,2026-06-21,Germany,Ivory Coast
+E,2,2026-06-21,Ecuador,Curaçao
+F,2,2026-06-21,Tunisia,Japan
+H,2,2026-06-21,Spain,Saudi Arabia
+
+G,2,2026-06-22,Belgium,Iran
+H,2,2026-06-22,Uruguay,Cape Verde
+G,2,2026-06-22,New Zealand,Egypt
+J,2,2026-06-23,Argentina,Austria
+
+
+I,2,2026-06-23,France,Iraq
+I,2,2026-06-23,Norway,Senegal
+J,2,2026-06-23,Jordan,Algeria
+K,2,2026-06-23,Portugal,Uzbekistan
+
+L,2,2026-06-24,England,Ghana
+L,2,2026-06-24,Panama,Croatia
+K,2,2026-06-24,Colombia,DR Congo
+
+B,3,2026-06-25,Switzerland,Canada
+B,3,2026-06-25,Bosnia and Herzegovina,Qatar
+C,3,2026-06-25,Morocco,Haiti
+C,3,2026-06-25,Scotland,Brazil
+A,3,2026-06-25,South Africa,South Korea
+A,3,2026-06-25,Czechia,Mexico
+
+E,3,2026-06-26,Curaçao,Ivory Coast
+E,3,2026-06-26,Ecuador,Germany
+F,3,2026-06-26,Tunisia,Netherlands
+F,3,2026-06-26,Japan,Sweden
+D,3,2026-06-26,Türkiye,USA
+D,3,2026-06-26,Paraguay,Australia
+
+I,3,2026-06-27,Norway,France
+I,3,2026-06-27,Senegal,Iraq
+H,3,2026-06-27,Cape Verde,Saudi Arabia
+H,3,2026-06-27,Uruguay,Spain
+G,3,2026-06-27,New Zealand,Belgium
+G,3,2026-06-27,Egypt,Iran
+
+L,3,2026-06-28,Panama,England
+L,3,2026-06-28,Croatia,Ghana
+K,3,2026-06-28,Colombia,Portugal
+K,3,2026-06-28,DR Congo,Uzbekistan
+J,3,2026-06-28,Algeria,Austria
+J,3,2026-06-28,Jordan,Argentina
