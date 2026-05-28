@@ -48,8 +48,8 @@ def load_models_and_data():
 
 try:
     classifier, home_goal_model, away_goal_model, rankings_df = load_models_and_data()
-    # Extract clean list of unique country names sorted alphabetically
-    available_teams = sorted(rankings_df['team_name'].unique())
+    # Extract clean list of unique country names using the correct column 'country_full'
+    available_teams = sorted(rankings_df['country_full'].unique())
 except Exception as e:
     st.error(f"Error loading system assets: {e}")
     st.stop()
@@ -99,9 +99,9 @@ if trigger_prediction:
     if team1 == team2:
         st.warning("⚠️ Invalid Selection: Please choose two separate countries to simulate a match.")
     else:
-        # Fetching input baseline details from your rankings matrix
-        t1_data = rankings_df[rankings_df['team_name'] == team1].iloc[0]
-        t2_data = rankings_df[rankings_df['team_name'] == team2].iloc[0]
+        # Fetching input baseline details using the correct column 'country_full'
+        t1_data = rankings_df[rankings_df['country_full'] == team1].iloc[0]
+        t2_data = rankings_df[rankings_df['country_full'] == team2].iloc[0]
         
         # Computing relative baseline differentials for the ML input vector (X)
         rank_diff = t1_data['rank'] - t2_data['rank']
